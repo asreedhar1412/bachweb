@@ -8,7 +8,7 @@
 
 <div class="container" style="float: right; width: 80%; ">
     <div class="pull-right">
-        <img class="pull-right" src="{{URL::asset('/images/BACK WEB LOGO.png')}}" alt="profile Pic" height="100" width="150">
+        <img class="pull-right" src="{{URL::asset('/images/logo.png')}}" alt="profile Pic" height="100" width="150">
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-1">
