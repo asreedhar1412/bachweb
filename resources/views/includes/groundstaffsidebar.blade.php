@@ -9,7 +9,7 @@
     <hr style="border-top: 1px solid #151515;">
     <div>
         <li style="list-style: none;">
-            <ul><a href="{{ url('/groundstaff') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Home</a></ul>
+            <ul><a href="{{ url('/groundshome') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Home</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Upload tasks Checklists</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Availability of Fields</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View Field Status</a></ul>

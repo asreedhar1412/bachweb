@@ -21,4 +21,10 @@ Route::get('/home', 'HomeController@index');
 Route::get('/customer', 'CustomerController@index');
 Route::get('/groundstaff', 'GroundstaffController@index');
 Route::get('/availabilityoffields', 'AvailOfFieldsController@index');
+Route::resource('/listoffields', 'FieldController');
+Route::resource('/addremovefields','AddRemoveFieldsController');
+Route::resource('/customerfields', 'CustomerFieldController');
+Route::resource('/groundshome', 'GroundsHomeController');
+Route::resource('/customerdetails', 'CustomerDetailController');
+
 
