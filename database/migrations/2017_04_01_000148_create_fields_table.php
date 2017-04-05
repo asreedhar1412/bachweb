@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateListoffieldsTable extends Migration
+class CreatefieldsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateListoffieldsTable extends Migration
      */
     public function up()
     {
-        Schema::create('listoffields', function (Blueprint $table){
+        Schema::create('fields', function (Blueprint $table){
             $table->increments('id');
             $table->string ('stadium');
             $table->integer ('capacity');
@@ -29,6 +29,6 @@ class CreateListoffieldsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('listoffields');
+        Schema::drop('fields');
     }
 }
