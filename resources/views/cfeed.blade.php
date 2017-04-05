@@ -62,8 +62,7 @@
                     <td>
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                    <!--                <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
- -->           </td>
+                    </td>
                     <td>
                         <input type='submit' value='Submit'  />
                     </td>
