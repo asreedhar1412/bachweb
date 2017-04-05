@@ -14,8 +14,8 @@
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Availability of Fields</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View Field Status</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Notify Admin</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Upload Reports</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Upload Data Evidence</a></ul>
+            <ul><a href="{{ url('/reports') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Upload Reports</a></ul>
+            <ul><a href="{{ url('/dataevidence') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Upload Data Evidence</a></ul>
         </li>
     </div>
 </div>

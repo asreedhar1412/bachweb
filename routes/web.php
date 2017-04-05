@@ -26,5 +26,11 @@ Route::resource('/addremovefields','AddRemoveFieldsController');
 Route::resource('/customerfields', 'CustomerFieldController');
 Route::resource('/groundshome', 'GroundsHomeController');
 Route::resource('/customerdetails', 'CustomerDetailController');
+Route::resource('/dataevidence', 'DataEvidenceController');
+Route::resource('/reports', 'ReportsController');
+Route::get('/terms',['as'=>'terms','uses'=>'TermsController@index']);
+Route::post('/terms',['as'=>'terms','uses'=>'TermsController@index']);
+Route::get('/cfeed',['as'=>'cfeed','uses'=>'cfeedbackController@index']);
+Route::post('/customer',['as'=>'customer','uses'=>'CustomerController@index']);
 
 
