@@ -37,7 +37,7 @@
             </td>
 
             <td>
-                <img class="center-block" src="{{URL::asset('/images/Holly.jpg')}}" alt="profile Pic" height="150" width="150">
+                <img class="center-block" src="{{URL::asset('/images/Holly.JPG')}}" alt="profile Pic" height="150" width="150">
                 <br>
                 <p><b>&nbsp Holly Rosser - Developer/Business Analyst &nbsp &nbsp</b></p>
                 <p><b>&nbsp Email - hrosser@unomaha.edu &nbsp &nbsp</b></p>
