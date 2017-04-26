@@ -1,24 +1,31 @@
+@extends('layouts.app')
+
+@section('content')
 <head>
-<body background="images/webbginside.jpg"> </body>
-    <title>Import - Export Laravel 5</title>
+    <title>Import - Export</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
 </head>
-<body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Import - Export in Excel and CSV Laravel 5</a>
+<body background="images/webbginside.jpg">
+<div style="width: 100%">
+    <div class="container" style="float: right; width: 80%;">
+        <div class="pull-right">
+            <img class="pull-right" src="{{URL::asset('/images/logo.png')}}" alt="profile Pic" height="100" width="150">
         </div>
-    </div>
-</nav>
-<div class="container">
+<div>
     <a href="{{ URL::to('downloadExcel/xls') }}"><button class="btn btn-success">Download Excel xls</button></a>
     <a href="{{ URL::to('downloadExcel/xlsx') }}"><button class="btn btn-success">Download Excel xlsx</button></a>
     <a href="{{ URL::to('downloadExcel/csv') }}"><button class="btn btn-success">Download CSV</button></a>
-    <form style="border: 4px solid #a1a1a1;margin-top: 15px;padding: 10px;" action="{{ URL::to('importExcel') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
+    <form action="{{ URL::to('importExcel') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
+        <div>
+            <br>
         <input type="file" name="import_file" />
+        </div>
         {{csrf_field()}}
         <br/>
         <button class="btn btn-primary">Import File</button>
     </form>
 </div>
+    </div>
+</div>
+</body>
+    @endsection

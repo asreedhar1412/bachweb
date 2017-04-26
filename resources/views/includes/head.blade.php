@@ -17,4 +17,4 @@
             <ul><a href="{{ url('/reports') }}" class="btn btn-primary" style="width: 200px; height: 30px;">View Reports</a></ul>
         </li>
     </div>
-</div>ss
+</div>
