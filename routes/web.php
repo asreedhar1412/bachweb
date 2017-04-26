@@ -23,11 +23,17 @@ Route::get('/groundstaff', 'GroundstaffController@index');
 Route::get('/availabilityoffields', 'AvailOfFieldsController@index');
 Route::resource('/listoffields', 'FieldController');
 Route::resource('/addremovefields','AddRemoveFieldsController');
+Route::resource('fieldstatuses','FieldstatusController');
 Route::resource('/customerfields', 'CustomerFieldController');
 Route::resource('/groundshome', 'GroundsHomeController');
 Route::resource('/customerdetails', 'CustomerDetailController');
+
+
+
 Route::resource('/dataevidence', 'DataEvidenceController');
 Route::resource('/reports', 'ReportsController');
+
+
 Route::get('/terms',['as'=>'terms','uses'=>'TermsController@index']);
 Route::post('/terms',['as'=>'terms','uses'=>'TermsController@index']);
 Route::get('/cfeed',['as'=>'cfeed','uses'=>'cfeedbackController@index']);
@@ -40,3 +46,10 @@ Route::post('updateReservation', 'AddRemoveFieldsController@updateReservation');
 Route::resource('/aboutus', 'AboutUsController');
 Route::resource('/welcome', 'WelcomeController');
 Route::resource('/contactus', 'ContactUsController');
+Route::get('/taskchecklist',['as'=>'taskchecklist','uses'=>'TaskchecklistController@index']);
+Route::post('/taskchecklist',['as'=>'taskchecklist','uses'=>'TaskchecklistController@index']);
+Route::get('/notifyadmin',['as'=>'notifyadmin','uses'=>'NotifyAdminController@index']);
+Route::post('/groundstaff',['as'=>'groundstaff','uses'=>'GroundstaffController@index']);
+Route::get('downloadExcel/{type}', 'ReportDemoController@downloadExcel');
+Route::post('importExcel', 'ReportDemoController@importExcel');
+Route::get('/importExport', 'ReportDemoController@importExport');

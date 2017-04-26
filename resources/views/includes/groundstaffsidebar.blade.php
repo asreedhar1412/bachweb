@@ -10,12 +10,9 @@
     <div>
         <li style="list-style: none;">
             <ul><a href="{{ url('/groundshome') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Home</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Upload tasks Checklists</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Availability of Fields</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View Field Status</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Notify Admin</a></ul>
+            <ul><a href="{{ url('/taskchecklist') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Task Checklist</a></ul>
+            <ul><a href="{{ url('/fieldstatuses') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Field Status</a></ul>
             <ul><a href="{{ url('/reports') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Upload Reports</a></ul>
-            <ul><a href="{{ url('/dataevidence') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Upload Data Evidence</a></ul>
         </li>
     </div>
 </div>
