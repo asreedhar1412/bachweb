@@ -689,18 +689,6 @@
         },
         {
             "name": "league/flysystem",
-<<<<<<< HEAD
-            "version": "1.0.38",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "4ba6e13f5116204b21c3afdf400ecf2b9eb1c482"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4ba6e13f5116204b21c3afdf400ecf2b9eb1c482",
-                "reference": "4ba6e13f5116204b21c3afdf400ecf2b9eb1c482",
-=======
             "version": "1.0.39",
             "source": {
                 "type": "git",
@@ -711,7 +699,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/2474325ee924134bb05848663b12531f6f2e9fbe",
                 "reference": "2474325ee924134bb05848663b12531f6f2e9fbe",
->>>>>>> Chaitra changes
                 "shasum": ""
             },
             "require": {
@@ -781,9 +768,6 @@
                 "sftp",
                 "storage"
             ],
-<<<<<<< HEAD
-            "time": "2017-04-22T18:59:19+00:00"
-=======
             "time": "2017-04-25T15:24:43+00:00"
         },
         {
@@ -1130,7 +1114,6 @@
             "time": "2017-03-13T16:27:32+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "paypal/rest-api-sdk-php",
             "version": "1.11.0",
             "source": {
@@ -1152,7 +1135,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*"
-=======
+
             "name": "phpoffice/phpexcel",
             "version": "1.8.1",
             "source": {
@@ -1170,21 +1153,16 @@
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "php": ">=5.2.0"
->>>>>>> Chaitra changes
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-<<<<<<< HEAD
                     "PayPal": "lib/"
-=======
                     "PHPExcel": "Classes/"
->>>>>>> Chaitra changes
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-<<<<<<< HEAD
                 "Apache-2.0"
             ],
             "authors": [
@@ -1202,7 +1180,6 @@
                 "sdk"
             ],
             "time": "2016-12-14T21:59:21+00:00"
-=======
                 "LGPL"
             ],
             "authors": [
@@ -1232,7 +1209,6 @@
                 "xlsx"
             ],
             "time": "2015-05-01T07:00:55+00:00"
->>>>>>> Chaitra changes
         },
         {
             "name": "psr/log",
