@@ -7,13 +7,13 @@
         <h4 style="text-align: center; color: black"> Customer </h4>
     </div>
     <hr style="border-top: 1px solid #151515;">
-    <div>
+    <div style="text-align: center">
         <li style="list-style: none;">
             <ul><a href="{{ url('/customer') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Home</a></ul>
             <ul><a href="{{ url('/customerfields') }}" class="btn btn-primary" style="width: 200px; height: 30px;">List of the Fields</a></ul>
             <ul><a href="{{ url('/availabilityoffields') }}" class="btn btn-primary" style="width: 200px; height: 30px;">Availability of Fields</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Make a payment</a></ul>
-            <ul><a href="{{ url('/terms') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Terms & Conditions</a></ul>
+            <!--<ul><a class="btn btn-primary" style="width: 200px; height: 30px;">Make a payment</a></ul>-->
+        <!--<ul><a href=""class="btn btn-primary" style="width: 200px; height: 30px;">Terms & Conditions</a></ul>-->
             <ul><a href="{{ url('/cfeed') }}"class="btn btn-primary" style="width: 200px; height: 30px;">Feedback</a></ul>
         </li>
     </div>

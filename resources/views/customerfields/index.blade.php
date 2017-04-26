@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-1">
 
-    <h1>List of Fields</h1>
+                    <h1><b>List of Fields</b></h1>
     <hr>
     <table class="table table-striped table-bordered table-hover">
         <thead>

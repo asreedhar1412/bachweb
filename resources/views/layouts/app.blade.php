@@ -11,7 +11,14 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+
+    {{Html::style('css/app.css')}}
+    {{--CDN for JQuery.--}}
+    <script src="{{ asset('js/app.js') }}"></script>
+    {{ Html::script('https://code.jquery.com/jquery-3.2.1.min.js') }}
+    {{ Html::script('https://code.jquery.com/ui/1.12.1/jquery-ui.min.js') }}
+    {{ Html::style('https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css') }}
 
     <!-- Scripts -->
     <script>
@@ -79,7 +86,7 @@
         @yield('content')
     </div>
 
+
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

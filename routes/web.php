@@ -32,5 +32,11 @@ Route::get('/terms',['as'=>'terms','uses'=>'TermsController@index']);
 Route::post('/terms',['as'=>'terms','uses'=>'TermsController@index']);
 Route::get('/cfeed',['as'=>'cfeed','uses'=>'cfeedbackController@index']);
 Route::post('/customer',['as'=>'customer','uses'=>'CustomerController@index']);
-
-
+Route::resource('/confirmsubmission', 'ConfirmSubmissionController');
+Route::get('paywithpaypal', array('as' => 'addmoney.paywithpaypal','uses' => 'AddMoneyController@payWithPaypal',));
+Route::post('paypal', array('as' => 'addmoney.paypal','uses' => 'AddMoneyController@postPaymentWithpaypal',));
+Route::get('paypal', array('as' => 'payment.status','uses' => 'AddMoneyController@getPaymentStatus',));
+Route::post('updateReservation', 'AddRemoveFieldsController@updateReservation');
+Route::resource('/aboutus', 'AboutUsController');
+Route::resource('/welcome', 'WelcomeController');
+Route::resource('/contactus', 'ContactUsController');

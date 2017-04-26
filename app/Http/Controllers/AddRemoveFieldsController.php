@@ -54,6 +54,15 @@ class AddRemoveFieldsController extends Controller
         $field=$field->toArray();
         return response()->json(field);
     }
+
+
+    public function updateReservation(Request $request)
+    {
+        $field=Field::find($request['radio1']);
+        //dd($field);
+        $field->update($request->all());
+        return redirect ('terms');
+    }
 }
 
 

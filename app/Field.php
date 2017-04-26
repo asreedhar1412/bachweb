@@ -10,5 +10,8 @@ class Field extends Model
         'stadium',
         'capacity',
         'uses',
+        'reservationdate',
+        'from',
+        'to'
     ];
 }

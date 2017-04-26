@@ -12,10 +12,10 @@
         <li style="list-style: none;">
             <ul><a href="{{ url('/home') }}" class="btn btn-primary" style="width: 200px; height: 30px;">Home</a></ul>
             <ul><a href="{{ url('/addremovefields') }}" class="btn btn-primary" style="width: 200px; height: 30px;">Add / Remove Fields</a></ul>
-            <ul><a href="{{ url('/customerdetails') }}" class="btn btn-primary" style="width: 200px; height: 30px;">View Customer Details</a></ul>
+            <!--<ul><a href="" class="btn btn-primary" style="width: 200px; height: 30px;">View Customer Details</a></ul>-->
             <ul><a href="{{ url('/listoffields') }}" class="btn btn-primary" style="width: 200px; height: 30px;">List of the Fields</a></ul>
             <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View Reports</a></ul>
-            <ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View data evidence</a></ul>
+            {{--<ul><a class="btn btn-primary" style="width: 200px; height: 30px;">View data evidence</a></ul>--}}
         </li>
     </div>
 </div>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <body background="images/webbginside.jpg">
+    <body>
     <div style="width: 100%">
         @include('includes.customersidebar')
         <div class="container" style="float: right; width: 80%; ">
@@ -14,7 +14,7 @@
     <h1>Field Information </h1>
 
     <div class="container">
-        <table class="table table-striped table-bordered table-hover">
+        <table style="width: 60%" class="table table-striped table-bordered table-hover">
             <tbody>
             <tr class="bg-info">
             <tr>

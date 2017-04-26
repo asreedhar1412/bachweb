@@ -18,8 +18,16 @@ class CreatefieldsTable extends Migration
             $table->string ('stadium');
             $table->integer ('capacity');
             $table->string ('uses');
+            $table->string('reservationdate')->nullable();
+            $table->string('from')->nullable();
+            $table->string('to')->nullable();
             $table->timestamps();
         });
+
+//        Schema::table('fields', function (Blueprint $table) {
+//            $table->foreign('customer_id')->references('id')->on('customers')->onDelete('cascade');
+//            //add notes to this part.
+//        });
     }
 
     /**

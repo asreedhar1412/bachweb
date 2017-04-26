@@ -10,50 +10,32 @@
     <div class="pull-right">
         <img class="pull-right" src="{{URL::asset('/images/logo.png')}}" alt="profile Pic" height="100" width="150">
     </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-1">
-            <h1 style="color: black;"> Customer Details</h1>
-            <br>
-            <br>
+    <div>
 
-           <!-- <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    You are logged in!
-                </div>
-            </div> -->
-            <div class="table-responsive">
-                <table border="2" style="width: 100%">
-                    <tr class="alert-danger">
-                        <th class="text-center">Customer Name</th>
-                        <th class="text-center">Organization</th>
-                        <th class="text-center">Scheduled</th>
-                    </tr>
-                    <tr class="alert-warning">
-                        <td class="text-center">David</td>
-                        <td class="text-center">Football Association</td>
-                        <td class="text-center">01/15/17 10:00AM - 3:00PM</td>
-                    </tr>
-                    <tr class="alert-success">
-                        <td class="text-center">Sachin</td>
-                        <td class="text-center">BCCI</td>
-                        <td class="text-center">01/18/17 11:00AM - 4:00PM</td>
-                    </tr>
-                    <tr class="alert-warning">
-                        <td class="text-center">Rafael Nadal</td>
-                        <td class="text-center">Tennis Academy</td>
-                        <td class="text-center">01/19/17 09:00AM - 4:00PM</td>
-                    </tr>
-                    <tr class="alert-success">
-                        <td class="text-center">Saina</td>
-                        <td class="text-center">BLC</td>
-                        <td class="text-center">01/19/17 07:00AM - 5:00PM</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        <img class="center-block" src="{{URL::asset('/images/welcomeimage.png')}}" alt="profile Pic" height="200" width="500">
     </div>
+
+    <br>
+    <br>
+    <br>
+    <div>
+
+        <marquee behavior="scroll" direction="left"><h3><b>Hi there!! Monitoring the fields has just been made easier...</b></h3></marquee>
+
+    </div>
+
+    <div align="center-right"; >
+        <h1 style="color: red"> Etiquette Policy </h1>
+
+        <p><i><b> 1. No Food in Work Station</b></i></p>
+        <p><i><b> 2. Mobile phone ringtones off</b></i></p>
+        <p><i><b> 3. Complete the work according to the task assigned</b></i></p>
+        <p><i><b> 4. E-mail for business use only</b></i></p>
+
+
+
+    </div>
+
 </div>
     </div>
     </body>

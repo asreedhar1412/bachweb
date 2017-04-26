@@ -83,9 +83,8 @@
         </div>
 
         <div class="links">
-            <a> About Us</a>
-            <a>Contact Us</a>
-            <a>News</a>
+            <a href="{{ url('/aboutus') }}">About Us</a>
+            <a href="{{ url('/contactus') }}">Contact Us</a>
 
         </div>
     </div>

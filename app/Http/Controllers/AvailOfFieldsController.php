@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\AvailOffields;
 use Illuminate\Http\Request;
 
 class AvailOfFieldsController extends Controller
@@ -22,7 +23,15 @@ class AvailOfFieldsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+
     {
         return view('availabilityoffields');
+    }
+
+    public function store (Request $request)
+    {
+        dd($request->all());
+        $availoffields=new AvailOffields($request->all());
+        $availoffields->save();
     }
 }

@@ -13,28 +13,27 @@
 
             <div>
 
-                <img class="center-block" src="{{URL::asset('/images/welcome.jpg')}}" alt="profile Pic" height="200" width="500">
+                <img class="center-block" src="{{URL::asset('/images/welcomeimage.png')}}" alt="profile Pic" height="200" width="500">
             </div>
 
             <br>
             <br>
             <br>
-<div class="table-responsive">
-    <table style="width: 70%;" border="2">
-        <tr>
-            <td style="width: 20%">
-    <span class="text-center"><h2 style="color: black">Notifications:</h2></span>
-                </td>
-            <td style="width: 70%;color: black" class="text-center">
+            <div>
 
-                A notification is a message
-                you can display to the user
-                outside of your application's
-                normal UI. When you tell
-                the system to issue a notification.
-            </td>
-        </tr>
-    </table>
+                <marquee behavior="scroll" direction="left"><h3><b>Hi there!! Reserving a field has just been made easier...</b></h3></marquee>
+
+            </div>
+
+
+<div align="center-right"; >
+    <h1 style="color: red"> Rules & Regulations </h1>
+
+    <p><i><b> 1. Athletic Field Use Fee : For use up to 6 hours - 72$</b></i></p>
+    <p><i><b> 2. Athletic Field Use Fee : For more than 6 hours - 100$</b></i></p>
+    <p><i><b> 3. Booking can be done maximum for one day</b></i></p>
+    <p><i><b> 4. No iterative bookings are accepted</b></i></p>
+
 
 
 </div>

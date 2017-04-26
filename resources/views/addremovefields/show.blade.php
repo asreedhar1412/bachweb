@@ -29,6 +29,18 @@
                 <td>Uses</td>
                 <td><?php echo ($field['uses']); ?></td>
             </tr>
+            <tr>
+                <td>reservationdate</td>
+                <td><?php echo ($field['reservationdate']); ?></td>
+            </tr>
+            <tr>
+                <td>from</td>
+                <td><?php echo ($field['from']); ?></td>
+            </tr>
+            <tr>
+                <td>to</td>
+                <td><?php echo ($field['to']); ?></td>
+            </tr>
 
             </tbody>
         </table>

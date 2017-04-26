@@ -10,49 +10,27 @@
             <div class="pull-right">
                 <img class="pull-right" src="{{URL::asset('/images/logo.png')}}" alt="profile Pic" height="100" width="150">
             </div>
-        </div>
-        <div> <body style='background-color:whitesmoke'></div>
-
-
-        <div class="container" style="float: right; width: 80%;">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-1">
-                    <h1>List of the Fields</h1>
-                    <br>
-                    <br>
-
-
-                    <div class="table-responsive" >
-                        <table border="2" style="width: 100%" >
-                            <tr class="alert-danger" >
-                                <th class="text-center">Stadium</th>
-                                <th class="text-center">Capacity</th>
-                                <th class="text-center">Uses(s)</th>
-                            </tr>
-                            <tr class="alert-warning">
-                                <td class="text-center">Darrell K Royal</td>
-                                <td class="text-center">100119</td>
-                                <td class="text-center">American Football</td>
-                            </tr>
-                            <tr class="alert-success">
-                                <td class="text-center">Melbourne Cricket Ground (MCG)</td>
-                                <td class="text-center">100024</td>
-                                <td class="text-center">Cricket</td>
-                            </tr>
-                            <tr class="alert-warning">
-                                <td class="text-center">Camp Nou</td>
-                                <td class="text-center">99354</td>
-                                <td class="text-center">Association Football</td>
-                            </tr>
-                            <tr class="alert-success">
-                                <td class="text-center">Soccer City</td>
-                                <td class="text-center">99354</td>
-                                <td class="text-center">Association Football</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+            <div>
+                <img class="center-block" src="{{URL::asset('/images/welcomeimage.png')}}" alt="profile Pic" height="200" width="500">
             </div>
+            <div>
+
+                <marquee behavior="scroll" direction="left"><h3><b>Hi there!! Monitoring a field has just been made easier...</b></h3></marquee>
+
+            </div>
+
+            <div align="center-right"; >
+                <h1 style="color: red"> Etiquette Policy </h1>
+
+                <p><i><b> 1. No Food in Work Station</b></i></p>
+                <p><i><b> 2. Mobile phone ringtones off</b></i></p>
+                <p><i><b> 3. Complete the work according to the task assigned</b></i></p>
+                <p><i><b> 4. E-mail for business use only</b></i></p>
+
+
+
+            </div>
+
         </div>
 
     </div>

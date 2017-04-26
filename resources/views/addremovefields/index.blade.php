@@ -21,6 +21,9 @@
             <th>Stadium</th>
             <th>Capacity</th>
             <th>Uses</th>
+            <th>Reservation Date</th>
+            <th>From</th>
+            <th>To</th>
             <th colspan="3">Actions</th>
         </tr>
         </thead>
@@ -30,6 +33,9 @@
                 <td>{{ $field->stadium }}</td>
                 <td>{{ $field->capacity }}</td>
                 <td>{{ $field->uses }}</td>
+                <td>{{ $field->reservationdate }}</td>
+                <td>{{ $field->from }}</td>
+                <td>{{ $field->to }}</td>
                 <td><a href="{{url('addremovefields',$field->id)}}" class="btn btn-primary">Show</a></td>
                 <td><a href="{{route('addremovefields.edit',$field->id)}}" class="btn btn-warning">Update</a></td>
                 <td>
