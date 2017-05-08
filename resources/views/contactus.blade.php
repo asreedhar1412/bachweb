@@ -49,6 +49,14 @@
                 <p><b>&nbsp Bidisha Biswas - Tester/Business Analyst &nbsp </b></p>
                 <p><b>&nbsp Email - bbiswas@unomaha.edu &nbsp &nbsp</b></p>
             </td>
+
+            <td>
+                <img class="center-block" src="{{URL::asset('/images/aditya.jpg')}}" alt="profile Pic" height="150" width="150">
+                <br>
+                <p><b>&nbsp Aditya Vogeti - Developer/Business Analyst &nbsp </b></p>
+                <p><b>&nbsp Email - rvogetivenkata@unomaha.edu &nbsp &nbsp</b></p>
+            </td>
+
         </tr>
     </table>
 </div>
